@@ -22,7 +22,7 @@ public class Chapter5Lab10 {
 		do{
 			System.out.print("How long has the acct been open? (months) ");
 			months = keyboard.nextDouble();
-		}while(months < 1);
+		}while(months < 1); //sentinel value
 		
 		SavingsAccount account1 = new SavingsAccount(annualInterest, bal);
 		
